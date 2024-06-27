@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:users.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    properties:
+      hibernate:
+        dialect: com.javapbl.rest_api.SQLiteDialect
