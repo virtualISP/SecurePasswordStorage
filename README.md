@@ -54,79 +54,11 @@ SecurePasswordStorage is a Java Spring Boot application designed to securely sto
 
 ## Usage
 
-After running the application, you can access the endpoints via any API client like Postman or can interact with the beautiful frontend interface prodided for the same.
-
-## API Endpoints
-
-### Create User
-
-- **URL:** `/user/create`
-- **Method:** `POST`
-- **Parameters:**
-    - `username`: String
-    - `password`: String
-- **Example Request:**
-    ```json
-    {
-        "username": "john",
-        "password": "password123"
-    }
-    ```
-- **Example Response:**
-    ```json
-    {
-        "message": "User created successfully"
-    }
-    ```
-
-### Login User
-
-- **URL:** `/user/login`
-- **Method:** `POST`
-- **Parameters:**
-    - `username`: String
-    - `password`: String
-- **Example Request:**
-    ```json
-    {
-        "username": "john",
-        "password": "password123"
-    }
-    ```
-- **Example Response:**
-    ```json
-    {
-        "message": "Login successful"
-    }
-    ```
-
-### Change Password
-
-- **URL:** `/user/changePassword`
-- **Method:** `POST`
-- **Parameters:**
-    - `username`: String
-    - `oldPassword`: String
-    - `newPassword`: String
-- **Example Request:**
-    ```json
-    {
-        "username": "john",
-        "oldPassword": "password123",
-        "newPassword": "newPassword123"
-    }
-    ```
-- **Example Response:**
-    ```json
-    {
-        "message": "Password changed successfully"
-    }
-    ```
-
+After running the application, you can access the endpoints via any API client like Postman or can interact with the beautiful frontend interface via any browser.
 
 ## Testing
 
-You can test the functionalities using Postman or any other API client.
+You can test the functionalities using Postman or any other API client. Also you can interact and test the functionalities through the browser.
 
 1. **Create a new user**:
     - Send a POST request to `/user/create` with `username` and `password` as parameters.
