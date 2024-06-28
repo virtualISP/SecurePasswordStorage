@@ -12,8 +12,7 @@ import com.javapbl.rest_api.service.UserManager;
 
 @RestController
 @RequestMapping("/user")
-//@CrossOrigin(origins = "http://localhost:63342")
-//@CrossOrigin(origins = "*")
+
 public class DatabaseAPIService {
 
     @Autowired
